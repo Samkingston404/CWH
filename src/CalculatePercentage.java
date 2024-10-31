@@ -10,6 +10,6 @@ public class CalculatePercentage {
         int science   = in.nextInt();
         int total     = telugu+hindi+english+maths+science;
         float percentage= (total / 500.0f) * 100;
-        System.out.println(percentage);
+        System.out.printf("percentage: %.2f%%\n", percentage);
     }
 }
