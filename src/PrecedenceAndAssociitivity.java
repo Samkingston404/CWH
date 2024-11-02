@@ -42,8 +42,40 @@ public class PrecedenceAndAssociitivity {
         g = ++f;// in pre first f + 1 will be updated and stored in g;
         System.out.println(g);
 
+        // Quiz Quick by CWH
+        // x - y     b^2 - 4ac
+        //-------    --------
+        //   2          2a
+
+        int x = 8, y = 4, result = 0;
+        result = x - y / 2;   // 8 - 4 / 2
+        System.out.println(result);   //  8 - 2
+                                        //6
+
+        result = (x - y) / 2;   // (8 - 4) / 2
+        System.out.println(result);   //  4 / 2
+                                        //2
+
+        result = x - y / 2;   // 8 - 4 / 2
+        System.out.println(result);   //  8 - 2
+        //6
 
 
+        b = 2 ; a = 3; c = 1;
+        result = b * b - 4 * a * c / 2 * a;
+        System.out.println(result);
 
+        b = 2 ; a = 3; c = 1;
+        result = (b * b - 4 * a * c) / (2 * a);
+        System.out.println(result);
+
+        a = 2; b = 4; int d = 5, reuslt = 0;
+        result = a - 4 * (b - d) ;  // 2 - 4 * ( 4 - 5)
+                                    // 2 - 4 * - 1
+        // 2 + 4 = 6
+        System.out.println(result);
+
+        char ch = 'a';
+        System.out.println(++ch);
     }
 }
