@@ -54,7 +54,7 @@ public class PrecedenceAndAssociitivity {
 
         result = (x - y) / 2;   // (8 - 4) / 2
         System.out.println(result);   //  4 / 2
-                                        //2
+        //2
 
         result = x - y / 2;   // 8 - 4 / 2
         System.out.println(result);   //  8 - 2
